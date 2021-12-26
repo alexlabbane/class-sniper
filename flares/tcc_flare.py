@@ -1,4 +1,4 @@
-import enum
+'''import enum
 from typing import Optional
 
 import bs4
@@ -52,3 +52,4 @@ class TCCFlare(flare.Flare):
 
             if expected_code == dept_course_section:
                 return seats_remaining
+'''

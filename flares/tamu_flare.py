@@ -37,4 +37,4 @@ class TAMUFlare(flare.Flare):
         sections = r.json()["data"]
         for section in sections:
             if section["sequenceNumber"] == section_num:
-                return section["seatsAvailable"]
+                return section
